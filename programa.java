@@ -39,16 +39,14 @@ public class programa
         
         } else if (this.formaPlanaNum == 3) {
                 
-                    System.out.println("Digite a altura do Triângulo. Em seguida, a medida de sua base, lado esquerdo e direito.");
+                    System.out.println("Digite a altura do Triângulo. Em seguida, a medida da sua base.");
     	         
             	   this.z = ler.nextInt();
             	   this.y = ler.nextInt();
-            	   this.x = ler.nextInt();
-            	   this.a = ler.nextInt();
-            	 
-            	 System.out.println("Altura: "+this.z+" Base = "+this.y+" L. Esquerdo = "+this.x+" L. Direito = "+this.a+".");
-            	 System.out.println("Perímetro do triângulo: "+ (this.y+this.x+this.a) +"");
-            	 System.out.println("Área do triângulo: "+ (this.z*this.y)*0.5 +"");
+            	
+            	 System.out.println("Altura: "+this.z+" Base = "+this.y+".");
+            	 System.out.println("Perímetro do triângulo: "+ (this.y+this.z)*1.667+".");
+            	 System.out.println("Área do triângulo: "+ (this.z*this.y)*0.5 +".");
             	 
             	 this.PlanoOuEspacial();
             }
