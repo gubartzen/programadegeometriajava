@@ -22,6 +22,7 @@ public class programa
       
       System.out.println("Circunferência: "+this.z+" Raio = "+this.z/(2*Math.PI)+".");
       System.out.println("Área superficial da esfera: "+4*Math.PI*this.z/(2*Math.PI)*this.z/(2*Math.PI)+"");
+	System.out.println("Volume da esfera: " + Math.pow(this.z/(2*Math.PI),3) * 4/3 * Math.PI + "");
       
       this.PlanoOuEspacial();
 
